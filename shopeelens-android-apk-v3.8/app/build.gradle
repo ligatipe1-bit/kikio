@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'id.shopeelens.affiliate'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "id.shopeelens.affiliate"
+        minSdk 24
+        targetSdk 34
+        versionCode 38
+        versionName "3.8.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+}
